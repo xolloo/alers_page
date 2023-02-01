@@ -1,0 +1,51 @@
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta
+      name="viewport"
+      content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=no"
+    />
+    <title>Test</title>
+    <style>
+      * {
+        user-select: none;
+        font-size: 14px;
+        font-family: Roboto;
+      }
+      .buttons {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+      }
+      .button {
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.1s;
+        margin: 10px;
+        background: rgb(247, 243, 243);
+      }
+      .button:hover {
+        background: white;
+      }
+      .result {
+        border-top: 1px solid #ccc;
+        padding: 5px 10px;
+      }
+    </style>
+    <script src="js/scripts.js" type="text/javascript"></script>
+  </head>
+
+    <div class="app">
+      <div class="buttons">
+        <div class="button alert">Run alert</div>
+        <div class="button confirm">Run confirm</div>
+        <div class="button promt">Run promt</div>
+        <div class="button confirm-custom">Run custom confirm (console)</div>
+      </div>
+    </div>
+  </body>
+</html>
